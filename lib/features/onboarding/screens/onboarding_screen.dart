@@ -43,7 +43,9 @@ class OnboardingScreen extends StatelessWidget {
             const Spacer(),
 
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/role-selection');
+              },
               child: const Text('Get Started'),
             ),
 
